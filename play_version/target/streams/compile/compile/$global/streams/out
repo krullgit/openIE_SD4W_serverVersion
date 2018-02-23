@@ -1,0 +1,49 @@
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:402:121: implicit numeric widening
+[warn]       val lengthFirstWordVector = math.floor(scala.math.sqrt(firstMap.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector
+[warn]                                                                                                                         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:414:140: implicit numeric widening
+[warn]             val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(secondMap.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
+[warn]                                                                                                                                            ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:575:94: implicit numeric widening
+[warn]       math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
+[warn]                                                                                              ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:601:137: implicit numeric widening
+[warn]         val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vectorDoc2.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
+[warn]                                                                                                                                         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:728:94: implicit numeric widening
+[warn]       math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
+[warn]                                                                                              ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:785:139: implicit numeric widening
+[warn]           val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vectorDoc2.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
+[warn]                                                                                                                                           ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:918:92: implicit numeric widening
+[warn]     math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
+[warn]                                                                                            ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:959:135: implicit numeric widening
+[warn]           val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vector.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
+[warn]                                                                                                                                       ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:956:9: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses
+[warn]         vectorDoc2Token
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:662:9: local val borderForCosAngle in method calcDistanceOfDocsWithinElastic is never used
+[warn]     val borderForCosAngle: Double = 0.0 // not important atm
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:941:9: local val borderForCosAngle in method calcDistanceAPI is never used
+[warn]     val borderForCosAngle: Double = 0.0 // not important atm
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:663:9: local var doc1 in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
+[warn]     var doc1 = doc
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:735:9: local var vectorDoc1 in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
+[warn]     var vectorDoc1: Map[String, Int] = accumulatedDocumentVector(doc1)
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:736:9: local var lengthFirstWordVector in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
+[warn]     var lengthFirstWordVector: Double = lengthOfVector(vectorDoc1)
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:772:9: local var countList in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
+[warn]     var countList:mutable.ArrayBuffer[Double] = mutable.ArrayBuffer[Double]()
+[warn]         ^
+[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:506:82: object JavaConversions in package collection is deprecated (since 2.12.0): use JavaConverters
+[warn]         coOccurrencesBuilder += Tuple2(currentWord.getWord.toString, currentWord.getCooc.toMap.map(x => (x._1.toString, x._2.toInt)))
+[warn]                                                                                  ^
+[warn] 16 warnings found

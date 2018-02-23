@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="de.tu_berlin.dima"
+		module="elastic4s-http-client-maven"
+		revision="1.0.1"
+		extra-scalaVersion="2.12.2"
+		conf="provided"
+		confs="default, master, compile, provided, runtime, test, system, sources, javadoc, optional, compile-internal, runtime-internal, test-internal, scala-tool"
+		date="20180218174810"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
