@@ -1,6 +1,6 @@
 [debug] Copy resource mappings: 
-[debug] 	(/home/matthes/Downloads/play-scala-rest-api-example/conf/application.conf,/home/matthes/Downloads/play-scala-rest-api-example/target/scala-2.12/classes/application.conf)
-[debug] 	(/home/matthes/Downloads/play-scala-rest-api-example/conf/logback.xml,/home/matthes/Downloads/play-scala-rest-api-example/target/scala-2.12/classes/logback.xml)
-[debug] 	(/home/matthes/Downloads/play-scala-rest-api-example/conf/secure.conf,/home/matthes/Downloads/play-scala-rest-api-example/target/scala-2.12/classes/secure.conf)
-[debug] 	(/home/matthes/Downloads/play-scala-rest-api-example/conf/routes,/home/matthes/Downloads/play-scala-rest-api-example/target/scala-2.12/classes/routes)
-[debug] 	(/home/matthes/Downloads/play-scala-rest-api-example/conf/generated.keystore,/home/matthes/Downloads/play-scala-rest-api-example/target/scala-2.12/classes/generated.keystore)
+[debug] 	(/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/application.conf,/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/target/scala-2.12/classes/application.conf)
+[debug] 	(/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/logback.xml,/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/target/scala-2.12/classes/logback.xml)
+[debug] 	(/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/secure.conf,/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/target/scala-2.12/classes/secure.conf)
+[debug] 	(/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/routes,/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/target/scala-2.12/classes/routes)
+[debug] 	(/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/generated.keystore,/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/target/scala-2.12/classes/generated.keystore)

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/matthes/Downloads/play-scala-rest-api-example/conf/routes
-// @DATE:Fri Feb 23 10:52:34 CET 2018
+// @SOURCE:/home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/conf/routes
+// @DATE:Fri Feb 23 16:41:34 CET 2018
 
 import play.api.mvc.Call
 

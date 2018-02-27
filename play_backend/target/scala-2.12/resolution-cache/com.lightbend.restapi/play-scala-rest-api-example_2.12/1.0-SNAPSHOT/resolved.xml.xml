@@ -4,7 +4,7 @@
 		module="play-scala-rest-api-example_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180218190356"
+		publication="20180223164128"
 	>
 		<description>
 		play-scala-rest-api-example

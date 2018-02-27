@@ -60,8 +60,8 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun Feb 18 15:55:34 CET 2018
-                  SOURCE: /home/matthes/Downloads/play-scala-rest-api-example/app/views/index.scala.html
+                  DATE: Fri Feb 23 16:41:34 CET 2018
+                  SOURCE: /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/views/index.scala.html
                   HASH: d5c2d76e9d1a10e08c86c9d7bf66d4cb878cbd67
                   MATRIX: 722->1|818->3|845->4
                   LINES: 21->1|26->1|27->2

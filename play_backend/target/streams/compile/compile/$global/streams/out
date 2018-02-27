@@ -1,49 +1,70 @@
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:402:121: implicit numeric widening
-[warn]       val lengthFirstWordVector = math.floor(scala.math.sqrt(firstMap.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector
-[warn]                                                                                                                         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:414:140: implicit numeric widening
-[warn]             val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(secondMap.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
-[warn]                                                                                                                                            ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:575:94: implicit numeric widening
-[warn]       math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
-[warn]                                                                                              ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:601:137: implicit numeric widening
-[warn]         val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vectorDoc2.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
-[warn]                                                                                                                                         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:728:94: implicit numeric widening
-[warn]       math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
-[warn]                                                                                              ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:785:139: implicit numeric widening
-[warn]           val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vectorDoc2.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
-[warn]                                                                                                                                           ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:918:92: implicit numeric widening
-[warn]     math.floor(scala.math.sqrt(vectorDoc.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2))) * 100) / 100 // calc the length for the current word vector with two digit precision
-[warn]                                                                                            ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:959:135: implicit numeric widening
-[warn]           val lengthSecondWordVector = math.floor(scala.math.sqrt(math.floor(vector.values.foldLeft(0.0)((x, y) => x + scala.math.pow(y, 2)) * 100) / 100) * 100) / 100 // length of second word vector
-[warn]                                                                                                                                       ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:956:9: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses
-[warn]         vectorDoc2Token
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:25:20: imported `analogyExtr' is permanently hidden by definition of class analogyExtr in package controllers
+[warn] import controllers.analogyExtr
+[warn]                    ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:4:17: Unused import
+[warn] import java.io.{File, IOException, PrintWriter}
+[warn]                 ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:4:23: Unused import
+[warn] import java.io.{File, IOException, PrintWriter}
+[warn]                       ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:4:36: Unused import
+[warn] import java.io.{File, IOException, PrintWriter}
+[warn]                                    ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:7:28: Unused import
+[warn] import com.sksamuel.avro4s.AvroOutputStream
+[warn]                            ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:9:47: Unused import
+[warn] import com.sksamuel.elastic4s.http.ElasticDsl._
+[warn]                                               ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:11:44: Unused import
+[warn] import com.sksamuel.elastic4s.http.search.{SearchHit, SearchIterator}
+[warn]                                            ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:11:55: Unused import
+[warn] import com.sksamuel.elastic4s.http.search.{SearchHit, SearchIterator}
+[warn]                                                       ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:12:47: Unused import
+[warn] import edu.stanford.nlp.ling.CoreAnnotations.{SentencesAnnotation, _}
+[warn]                                               ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:12:68: Unused import
+[warn] import edu.stanford.nlp.ling.CoreAnnotations.{SentencesAnnotation, _}
+[warn]                                                                    ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:13:30: Unused import
+[warn] import edu.stanford.nlp.ling.CoreLabel
+[warn]                              ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:14:35: Unused import
+[warn] import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
+[warn]                                   ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:15:30: Unused import
+[warn] import edu.stanford.nlp.util.CoreMap
+[warn]                              ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:16:29: Unused import
+[warn] import org.apache.avro.file.DataFileReader
+[warn]                             ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:17:33: Unused import
+[warn] import org.apache.avro.specific.SpecificDatumReader
+[warn]                                 ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:19:40: Unused import
+[warn] import scala.collection.JavaConverters._
+[warn]                                        ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:20:35: Unused import
+[warn] import scala.collection.immutable.ListMap
+[warn]                                   ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:21:25: Unused import
+[warn] import scala.collection.mutable
+[warn]                         ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:22:34: Unused import
+[warn] import scala.concurrent.duration._
+[warn]                                  ^
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:62:9: local val client in method main is never used
+[warn]     val client = HttpClient(ElasticsearchClientUri("localhost", 9200)) // new client
 [warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:662:9: local val borderForCosAngle in method calcDistanceOfDocsWithinElastic is never used
-[warn]     val borderForCosAngle: Double = 0.0 // not important atm
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:68:9: local var lengthFirstWordVector in method main is never used
+[warn]     var lengthFirstWordVector: Double = newAnaloyExtraction.lengthOfVector(vectorDoc1)
 [warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:941:9: local val borderForCosAngle in method calcDistanceAPI is never used
-[warn]     val borderForCosAngle: Double = 0.0 // not important atm
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:61:9: local var doc1 in method main is never set: consider using immutable val
+[warn]     var doc1:String = "Car crash in New York"
 [warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:663:9: local var doc1 in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
-[warn]     var doc1 = doc
+[warn] /home/matthes/Documents/DATEN/work/DFKI/projects/sd4w/server_version/play_backend/app/controllers/analogyExtrMain.scala:67:9: local var vectorDoc1 in method main is never set: consider using immutable val
+[warn]     var vectorDoc1: Map[String, Int] = newAnaloyExtraction.accumulatedDocumentVector(doc1)._1
 [warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:735:9: local var vectorDoc1 in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
-[warn]     var vectorDoc1: Map[String, Int] = accumulatedDocumentVector(doc1)
-[warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:736:9: local var lengthFirstWordVector in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
-[warn]     var lengthFirstWordVector: Double = lengthOfVector(vectorDoc1)
-[warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:772:9: local var countList in method calcDistanceOfDocsWithinElastic is never set: consider using immutable val
-[warn]     var countList:mutable.ArrayBuffer[Double] = mutable.ArrayBuffer[Double]()
-[warn]         ^
-[warn] /home/matthes/Downloads/play-scala-rest-api-example/app/controllers/analogyExtr.scala:506:82: object JavaConversions in package collection is deprecated (since 2.12.0): use JavaConverters
-[warn]         coOccurrencesBuilder += Tuple2(currentWord.getWord.toString, currentWord.getCooc.toMap.map(x => (x._1.toString, x._2.toInt)))
-[warn]                                                                                  ^
-[warn] 16 warnings found
+[warn] 23 warnings found

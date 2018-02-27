@@ -60,7 +60,6 @@ object analogyExtrMain {
 
     var doc1:String = "Car crash in New York"
 
-
     val newAnaloyExtraction = new analogyExtr(coOccurrences,pipelineNER,pipelineSplit,Map[String, Int](),0)
     var vectorDoc1: Map[String, Int] = newAnaloyExtraction.accumulatedDocumentVector(doc1)._1
     var lengthFirstWordVector: Double = newAnaloyExtraction.lengthOfVector(vectorDoc1)

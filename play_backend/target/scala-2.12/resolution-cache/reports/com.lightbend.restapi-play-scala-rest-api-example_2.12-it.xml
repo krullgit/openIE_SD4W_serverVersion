@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="it"
 		confs="compile, runtime, test, provided, optional, gatling, it, gatling-it, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, it-internal, plugin, pom, scala-tool, scalafmt, docs"
-		date="20180218190356"/>
+		date="20180223164128"/>
 	<dependencies>
 		<module organisation="com.sksamuel.avro4s" name="avro4s-core_2.12">
 			<revision name="1.8.0" status="release" pubdate="20170824210223" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/avro4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">

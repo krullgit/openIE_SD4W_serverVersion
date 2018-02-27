@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, gatling, it, gatling-it, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, it-internal, plugin, pom, scala-tool, scalafmt, docs"
-		date="20180218190356"/>
+		date="20180223164128"/>
 	<dependencies>
 		<module organisation="org.scalatest" name="scalatest_2.12">
 			<revision name="3.2.0-SNAP9" status="release" pubdate="20170628102013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="198">
